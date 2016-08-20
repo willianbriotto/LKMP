@@ -1,0 +1,1 @@
+cmd_/home/server/workspace/LKMP/char_device/char_device.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/server/workspace/LKMP/char_device/char_device.ko /home/server/workspace/LKMP/char_device/char_device.o /home/server/workspace/LKMP/char_device/char_device.mod.o

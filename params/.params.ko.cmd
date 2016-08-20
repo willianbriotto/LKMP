@@ -1,0 +1,1 @@
+cmd_/home/server/workspace/LKMP/params/params.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/server/workspace/LKMP/params/params.ko /home/server/workspace/LKMP/params/params.o /home/server/workspace/LKMP/params/params.mod.o
